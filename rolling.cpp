@@ -54,6 +54,10 @@ static int diceroll(){return R(mt);}
 
 
 int main(){
+    string s;
+    cout<<"What is your name?"<<endl;
+    cin>>s;
+    cout<<"Hello, "<<s<<"!"<<endl;
     int sum=0,a=-1;
     auto roll=[&](){a=diceroll(); sum+=a; return a;};
     cout<<"Rolling the dice..."<<endl;
