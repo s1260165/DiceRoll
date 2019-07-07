@@ -64,7 +64,7 @@ int main(){
     cout<<"Dice 1: "<<roll()<<endl;
     cout<<"Dice 2: "<<roll()<<endl;
     cout<<"Total value: "<<sum<<endl;
-    cout<<"You "<<(sum>7?"won":"lost")<<endl;
+    cout<<"s "<<(sum>7?"won":"lost")<<endl;
     
     return 0;
 }
